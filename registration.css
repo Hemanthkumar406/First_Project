@@ -1,0 +1,84 @@
+.container{
+	  	background: linear-gradient(45deg,#534751,#FBC273,#916354,#885F0F,#DEB317);
+	  	border: 2px solid lightbrown;
+	    width: 202px;
+	    padding: 81px 53px;
+	   
+	    padding-right: 63px;
+	    margin-left: 648px;
+	    margin-top: 169px;
+
+
+}
+.registerform input[type = "text"],input[ type = "password"]
+{
+	border:none;
+	margin:5px;
+	font-size: 16px;
+	border-bottom: 3px solid white;
+	background: none;
+
+	
+
+}
+select{
+	border: none;
+	width: 202px;
+	margin: 5px;
+	font-size: 16px;
+	border-bottom: 3px solid white;
+	background: none;
+	color: white;
+		
+}
+textarea{
+	width: 196px;
+	margin: 5px;
+	font-size: 16px;
+	border:none;
+	border-bottom: 3px solid white;
+	background: none;
+	
+}
+body{
+	background-image: url("../Project/img/nature.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+::placeholder{
+	color: white;
+}
+.registerform input[type = "submit"]{
+	margin: 5px;
+    width: 202px;
+    padding: 3px;
+    border-radius: 30px 30px 30px 30px;
+    border: none;
+    background: linear-gradient(35deg, #d2c004,#774e20,#2e6410, transparent);
+    color: white;
+    font-size: 15px;
+}
+.registerform input[type = "submit"]:hover{
+	cursor: pointer;
+	box-shadow: 2px 2px lavenderblush;
+
+}
+option{
+	color: black;
+}
+i{
+	margin-top: -120px;
+	font-size: 100px;
+	    border: 20px solid #774e20;
+    border-radius: 100%;
+    color: whitesmoke;
+
+}
+.re{
+		text-align: center;
+    margin: 5px;
+    margin-top: -68px;
+
+    
+
+}

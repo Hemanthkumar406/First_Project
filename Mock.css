@@ -1,0 +1,96 @@
+a{
+	text-decoration: none;
+    margin: 28px;
+    position: relative;
+    top: 26px;
+    left: 18px;
+    display: block;
+}
+.box{
+	position: relative;
+    left: -8px;
+    top: -38px;
+    border: 0px solid black;
+    width: 100px;
+    /* padding: 259px; */
+    padding-left: 10px;
+    padding-right: 148px;
+    padding-bottom: 98px;
+    background: linear-gradient(45deg, orange,white ,green, transparent);
+    margin: 0px;
+  }
+.social{
+	display: inline;
+}
+.name{
+	margin: 5px;
+    position: relative;
+    top: 3px;
+    left: 35px;
+    color: white;
+}
+.socialmedia{
+	margin: 10px;
+	position: relative;
+	top: 10px;
+
+}
+.image{
+	    position: relative;
+    left: 56px;
+    margin-top: 38px;
+    top: 13px;
+    
+
+}
+i{
+	color: black;
+	position: relative;
+	top: 20px;
+	right: 30px;
+}
+#social1{
+	position: relative;
+    top: -16px;
+    left: -29px;
+    font-size: 24px;
+    color: white;
+}
+
+
+#social2{
+	position: relative;
+    top: -70px;
+    left: 18px;
+    font-size: 24px;
+    color: white;
+}
+#social3{
+	
+	    position: relative;
+    top: -121px;
+    left: 65px;
+    font-size: 24px;
+    color: white;
+}
+#social4{
+	position: relative;
+    top: -174px;
+    left: 109px;
+    font-size: 25px;
+    color: white;
+}
+#social5{
+		position: relative;
+    top: -227px;
+    left: 150px;
+    font-size: 24px;
+    color: white;
+}
+}
+
+.page a{
+	position: relative;
+    top: -186px;
+
+}

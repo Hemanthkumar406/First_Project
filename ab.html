@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<title>css elements</title>
+	<style>
+		body{
+			background:black url("../IMAGE/wal.jpg") no-repeat 0px 0px fixed ;
+			background-size: cover;
+
+		}
+		div
+		{
+			width: 500px;
+			box-shadow: 0px 0px 10px black;
+			margin: 100px auto;
+			height: 500px;
+			border-radius:20px;
+			overflow: hidden;
+			position :relative;
+		}
+		div>#three
+		{
+			width:500px;
+			height: inherit;
+			
+
+			position: absolute;
+			transition:all 1s linear 1s;
+		
+		}
+		div>#one
+		{
+			width:250px;
+			height: inherit;
+			
+			position: absolute;
+			transition:all 1s linear 0s;
+				transform-origin: left;
+		
+		}
+		div>#two
+		{
+			margin-left: 251px;	
+			width:250px;
+			height: inherit;
+			border-radius: inherit;
+					transition:all 1s linear 0s;
+					transform-origin: right;
+		}
+		
+		div>#four
+		{
+			width:50px;
+			height: 50px;
+			border-radius: inherit;
+			position: absolute;
+			top:0px;
+			left:0px;
+			margin:230px 225px;
+			
+			transition: all 1s linear 2s;
+			}
+		div:hover
+		{
+			cursor: pointer;
+		}
+
+		div:hover>#one
+		{
+			transform: rotateY(-140deg);
+			
+
+		}
+		div:hover>#two
+		{
+			transform: rotateY(-180deg);
+		}
+		div:hover>#three
+		{
+			transform: translateY(-100%);
+		}
+		div:hover>#four
+		{
+
+		    width: 500px;
+		    height: 500px;
+		}
+
+	</style>
+</head>
+<body>
+	<div>
+		<img id="one" src="../IMAGE/md.jpg">
+	    <img id="two" src="../IMAGE/md.jpg">
+	    <img id="three"src="../IMAGE/cur.webp">
+	    <img id ="four" src="../IMAGE/kkk.jpg">
+	
+	</div>
+
+</body>
+</html>

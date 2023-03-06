@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title>Css Animations</title>
+	<style>
+		body{
+			background-color: black;
+		}
+		div{
+			position: relative;
+			top: 300px;
+			left: 350px;
+
+		}
+		div>span
+		{
+			display: inline-block;
+			background-color: black;
+			color: white;
+			padding: 30px;
+			text-align: center;
+			margin: 20px;
+			border-radius: 100%;
+			box-shadow: 0px -5px 10px white;
+			animation: hemanth 2s linear 1s infinite normal;
+
+		}
+		div>span:first-child
+		{
+			background-color: red;
+			animation-duration:0.6s ;
+		}
+		div>span:nth-child(2)
+		{
+			background-color: blue;
+			animation-duration: 0.9s;
+		}
+		div>span:nth-child(3)
+		{
+			background-color: orange;
+			animation-duration: 0.7s;
+		}
+		div>span:nth-child(4)
+		{
+			background-color: pink;
+			animation-duration: 0.9s;
+		}
+		div>span:nth-child(5)
+		{
+			background-color: lightgreen;
+			animation-duration:0.8s ;
+		}
+		div>span:nth-child(6)
+		{
+			background-color: brown;
+			animation-duration: 0.7s;
+		}
+		div>span:last-child
+		{
+			background-color: cornflowerblue;
+			animation-duration:0.9s ;
+		}
+		@keyframes hemanth
+		{
+			0%,100%
+			{
+				transform: translateY(-70px);
+			}
+			50%
+			{
+				transform: translateY(100px);
+			}
+		} 
+	</style>
+</head>
+<body>
+	<div>
+		<span>H</span>
+		<span>E</span>
+		<span>M</span>
+		<span>A</span>
+		<span>N</span>
+		<span>T</span>
+		<span>H</span>
+	</div>
+
+</body>
+</html>

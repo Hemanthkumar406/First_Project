@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Assignmenmt10-1 Birthday wish</title>
+        <style>
+            body
+            {
+                background-color: lightblue;
+               
+            }
+            #one
+            {
+                background-image: url(../project/img/f6.jpeg);
+                 background-repeat: no-repeat;
+                background-size: cover;
+                background-attachment: fixed;
+                border-radius: 100%;
+
+                width: 500px;
+                height: 300px;
+                margin: 100px 50px;
+                transform: rotate(270 deg);
+                cursor: pointer;
+
+                animation: vegeta 5s linear 0s infinite normal;
+            }
+            div>span :first-child
+            {
+                
+                left: 50px;
+                border-radius: 50%;
+                display: inline-block;
+                position: relative;
+                color: black;
+                font-style: italic;
+
+                animation: happy 3s linear 0s 1 normal;
+            }
+            div>span:last-child
+            {
+                
+                left: 60px;
+                display: inline-block;
+                position:relative ;
+                color: black;
+                font-style: italic;
+
+                animation: birth-day 3s linear 0s 1 normal;
+            }
+            @keyframes happy
+            {
+                0%
+                {
+                    top: 50px;
+                    left: 50px;
+                }
+                50% , 100%
+                {
+                    top: 50px;
+                    left: 100px;
+                }
+                
+            }
+            @keyframes birth-day
+            {
+                0%
+                {
+                    top: 50px;
+                    left: 60px;
+
+                }
+                50% , 100%
+                {
+                    top: 100px;
+                    left: 60px;
+                }
+            }
+            @keyframes vegeta
+            {
+                0%
+                {
+                    transform: rotate(300deg);
+                }
+                10%
+                {
+                    transform: rotate(60deg);
+                }
+                20%
+                {
+                    transform: rotate(270deg);
+                }
+                30%
+                {
+                    transform: rotate(90deg);
+                }
+                40%
+                {
+                    transform: rotate(120deg);
+                }    
+                50%
+                {
+                    transform: rotate(160deg);
+                }
+                60%
+                {
+                    transform: rotate(200deg);
+                }
+                70%
+                {
+                    transform: rotate(220deg);
+                }
+                80%
+                {
+                    transform: rotate(250deg);
+                }
+                90%
+                {
+                    transform: rotate(300deg);
+                }
+                100%
+                {
+                    transform: rotate(340deg);
+                }
+
+            }
+        </style>
+    </head>
+    <body>
+        <div id="one"><img src="../project/img/f6.jpeg" width="100px"></div>
+       <div>
+        <span><h1>HAPPY</h1></span>
+        <span><h1>BIRTH-DAY</h1></span>
+       </div>
+    </body>
+</html>
